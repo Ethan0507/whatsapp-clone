@@ -1,0 +1,33 @@
+.login {
+    height: 90vh;
+    width: 90vw;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+    background-image: url("https://images.pexels.com/photos/4132538/pexels-photo-4132538.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login__container {
+    margin: 10rem 5rem;
+}
+
+.login__text {
+    font-size: medium;
+    font-weight: 500;
+    color: gray;
+}
+
+.login__text > button {
+    background-color: #0a8d48 !important;
+}
+
+.login__google {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login__google > h5 {
+    margin-left: 10px;
+    font-weight: 100;
+}
